@@ -1,0 +1,9 @@
+O que foi estudado: 
+- O que é python
+- Como python funciona
+
+Variaveis e tipos de dados
+Conceitos básicos sobre variáveis, tipos de dados e operadores em Python.
+
+Condicionais e Loops
+Utilização de estruturas condicionais e de repetição em Python. (For e While)
