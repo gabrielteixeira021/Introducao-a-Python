@@ -1,0 +1,4 @@
+Segue abaixo uma recomendação para ler o pdf contendo os exercícios diretamente pelo vs code: 
+
+Nome da extensão: vscode-pdf
+Autor: tomoki1207

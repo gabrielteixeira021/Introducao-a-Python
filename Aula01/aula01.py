@@ -41,7 +41,7 @@ print("A é maior que B") if a > b else print("B é maior que A")
 
 # While (exemplo: contagem decrescente)
 i = 10
-while(i > 0):
+while i > 0:
     print(f"Contagem: {i}")
     i -= 1
 
