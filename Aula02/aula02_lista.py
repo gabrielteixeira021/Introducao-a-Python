@@ -86,12 +86,12 @@ lista_de_compras.remove("Vinagre")
 
 lista_impar.remove(1)
 
-lista_construtor_davy.pop()
 
 print(lista_impar)
 
 
 # Remover especificando o índice
+lista_construtor_davy.pop()
 print(lista_de_compras) # Suco de laranja indice 01
 lista_de_compras.pop(1) # Remove ele
 print(lista_de_compras)

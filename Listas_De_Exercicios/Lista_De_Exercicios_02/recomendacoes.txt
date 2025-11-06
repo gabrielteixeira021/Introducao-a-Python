@@ -2,3 +2,5 @@ Segue abaixo uma recomendação para ler o pdf contendo os exercícios diretamen
 
 Nome da extensão: vscode-pdf
 Autor: tomoki1207
+
+
