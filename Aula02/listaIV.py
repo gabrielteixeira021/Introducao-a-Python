@@ -4,7 +4,8 @@ número  inteiro  positivo  N e  exiba  todos  os múltiplos de Y inferiores a N
 fornecidos pelo usuário.
 """
 
-# 1,7/2,5 Não exibe os multiplos de Y, ao invés, exibe somente o valor de Y por iteração
+# Nota: 1,7/2,5 
+# Não exibe os multiplos de Y, ao invés, exibe somente o valor de Y por iteração
 N = int(input("Insira N: ")) # 10
 Y = int(input("Insira Y: ")) # 2
 
@@ -25,7 +26,7 @@ como a soma destes elementos:
 1, 50, 2, 49, 3, 48, 4, 47, 5, 46, ..., 49, 2, 50, 1
 """
 
-# 2,5/2,5
+# Nota: 2,5/2,5
 p = 1
 l = 50
 o = p + l
@@ -48,7 +49,7 @@ disponível na conta de Joãozinho após A anos
 de investimento.
 """
 
-# 2,5/2,5
+# Nota: 2,5/2,5
 Q = int(input("Investimento Inicial:" ))
 R = int(input("Rendimento Fixo: "))
 A = int(input("Tempo de Investimento em Anos: "))
@@ -65,9 +66,14 @@ a) A quantidade de valores negativos
 digitados;
 b) A média dos valores positivos.
 """
+
 Somaneg = 0
+Somaposi = 0
+
 
 for x in range(300):
-    t = print(input())
-if t <= 0:
-    Somaneg +=
+    lista = print(input())
+    if lista > 0:
+        Somaneg += 1
+    elif lista < 0 
+        Somaposi += 1 and 
