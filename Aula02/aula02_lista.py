@@ -37,7 +37,7 @@ for itens, itens_b in zip(lista_construtor, lista_construtor_fs):
 clear = lambda: print('\n' * 100)
 clear()
 
-# Como acessar/visualizar
+# Como acessar/visualizar 
 
 # Como visualizar a estrutura completa
 print(lista_construtor)
