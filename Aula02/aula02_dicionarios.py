@@ -45,7 +45,6 @@ lista_de_contatos = {
 # Como visualizar as chaves do dicionario
 print(lista_de_contatos.keys())
 
-
 # Acessando um dicionario simples (chave-valor unitario)
 nomes = contato_gabriel["nome"]
 print(nomes)
@@ -59,7 +58,6 @@ print(lista_emails)
 
 lista_telefones = lista_de_contatos["Telefone"]
 print(lista_telefones)
-
 
 # Como alterar o valor
 
