@@ -4,7 +4,7 @@ número  inteiro  positivo  N e  exiba  todos  os múltiplos de Y inferiores a N
 fornecidos pelo usuário.
 """
 
-# Nota: 1,7/2,5 
+# Nota: 1,5/2,5 
 # Não exibe os multiplos de Y, ao invés, exibe somente o valor de Y por iteração
 N = int(input("Insira N: ")) # 10
 Y = int(input("Insira Y: ")) # 2
@@ -67,13 +67,26 @@ digitados;
 b) A média dos valores positivos.
 """
 
+
+# Nota: 2,25/2,5 
+# Não seguiu a boa prática de colocar os nomes das variaveis de acordo com a regra universal da linguagem python -0,25 
 Somaneg = 0
 Somaposi = 0
-
+Loga = 0
 
 for x in range(300):
-    lista = print(input())
-    if lista > 0:
+    numero = int(input("Insira um valor: "))
+    if numero < 0:
         Somaneg += 1
-    elif lista < 0 
-        Somaposi += 1 and 
+    elif numero > 0:
+        Somaposi += 1 
+        Loga = Loga + numero
+        Div = Loga / Somaposi
+
+print("Quantidade de números negativos é: ", Somaneg)
+print("A média é: ", Div)
+
+
+# Aluno: Hércules Guia
+# Nota final: 8.75
+# Teste 1
