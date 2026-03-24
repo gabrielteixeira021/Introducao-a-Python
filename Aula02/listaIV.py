@@ -124,7 +124,7 @@ for x in range(entrevistados):
     feedback_positivo_feminino += 1
 
   elif feedback == "não gostou" and genero == "h":
-    feedback_negativo_feminino += 1
+    feedback_negativo_masculino += 1
   elif feedback == "não gostou" and genero == "m": 
     feedback_negativo_feminino += 1
 
