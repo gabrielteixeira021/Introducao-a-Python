@@ -91,13 +91,15 @@ print("A média é: ", Div)
 # Nota final: 8.75
 # Teste 1
 
-
+# Nota: 2,25
 #exercício 5
 for x in range(50):
     if (x % 2) == 0:
         print(x*-1, end=(", "))
     else: print(x, end=(", "))
 
+
+# Nota: 2,5
 #exercício 6
 numero = int(input("Coloque um número aqui: "))
 
@@ -107,6 +109,7 @@ if numero <= 18:
     if ((x//10) + (x%10)) == numero: #Pedi ajuda ao copilot e o erro todo da questão foi uma /, tinha posto / e era //.
       print(x)
 else: print("Error, Tente novamente")
+
 
 #exercícios 7
 entrevistados = int(input("Quantos entrevistados?: ")) #Utilizei GPT para identificar o meu erro de não indentar i IF dentro do FOR e esquecer o () no .lower()
@@ -137,12 +140,15 @@ elif feedback_positivo_masculino == feedback_positivo_feminino:
 elif feedback_positivo_masculino < feedback_positivo_feminino:
   print("Mulheres tiveram uma maior aceitação sendo:", feedback_positivo_feminino, "contra", feedback_positivo_masculino)
 
-  #exercícios 8
-  ingresso_idade = 0
+
+# Nota final: 1,75
+#exercícios 8
+ingresso_idade = 0
 soma_salario_homem = 0
 genero_feminino = 0
 genero_masculino = 0
 
+# 1: loop cumpre as condições e funciona
 for x in range(250):
   matricula = input("Digite sua matrícula: ")
   genero = input("Sexo: ").lower()
@@ -166,7 +172,11 @@ media_salario_homem = soma_salario_homem/genero_masculino
 
 print(ingresso_idade)
 print(genero_feminino)
-print(media_salario_homem) 
+print(media_salario_homem)
+
+
+# a -> 0,25 b-> 0,25 c -> 0,25 d->0,25
+
 #Resposta abaixo do GPT pois não tive conhecimento ou lógica para fazer esse
 ''''
 def main():
@@ -213,4 +223,5 @@ def main():
     print("Média salarial dos homens:", media_salario_homem)
     print("Matrícula do mais antigo:", matricula_mais_antigo)
     print("Matrícula do mais novo:", matricula_mais_novo)
+    
 '''
