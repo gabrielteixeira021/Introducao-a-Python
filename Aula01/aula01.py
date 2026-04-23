@@ -15,10 +15,10 @@ print(f"Mostrando a idade: {idade} \n Mostrando a velocidade {velocidade}")
 #Se chover mais tarde -> eu nao vou jogar bola
 
 
-if idade > 12:
-    print("Já passou da validade. - Gomes, Daniel, 2025")
+if idade > 18:
+    print("Permitido comprar bebida")
 else:
-    print("Ta boa ainda. - Gomes, Daniel, 2025 ")
+    print("Não Permitido comprar bebida")
 
 # Condicionais parte 2
 horario = 3 # horas    

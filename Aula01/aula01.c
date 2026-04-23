@@ -3,17 +3,17 @@
 int main(){
 
     // Variaveis
-    int idade = 16;
+    int idade = 19;
 
     printf("Mostrando a idade: %d", idade);
 
-    if(idade > 12){
-        printf("Ja passou da validade, segundo Daniel");
+    if(idade > 18){
+        printf("Permitido comprar bebida");
     }else{
-        printf("Ta boa ainda, segundo Daniel");
+        printf("Não permitido");
     }
 
-    idade > 12 ? printf("Ja passou da validade, segundo Daniel") : printf("Ta boa ainda, segundo Daniel");
+    idade > 18 ? printf("Permitido comprar bebida") : printf("Não Permitido");
 
 
     for(int i = 0; i < 10; i++){
